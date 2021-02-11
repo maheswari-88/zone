@@ -4,3 +4,6 @@
 [submodule "dockerzone"]
 	path = dockerzone
 	url = https://github.com/maheswari-88/dockerzone.git
+[submodule "Dockerzone"]
+	path = Dockerzone
+	url = https://github.com/maheswari-88/Dockerzone.git
