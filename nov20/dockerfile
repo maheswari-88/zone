@@ -1,1 +1,3 @@
 FROM hello-world:latest
+LABEL author = "maheswari"
+LABEL organization = " learning thoughts"
