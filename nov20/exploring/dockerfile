@@ -1,0 +1,3 @@
+FROM openjdk:8u272-slim
+LABEL author: "mahi"
+ADD https://github.com/asquarezone/spring-petclinic.git
