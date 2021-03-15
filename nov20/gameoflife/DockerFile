@@ -1,3 +1,0 @@
-FROM tomcat : jdk8-openjdk
-LABEL team : "qtdevops"
-RUN CMD
