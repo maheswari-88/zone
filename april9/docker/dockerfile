@@ -1,1 +1,3 @@
 FROM hello-world:latest
+LABEL author="mahi"
+LABEL organization="learning thoughts"
