@@ -1,0 +1,3 @@
+FROM hello-world:latest
+LABEL author : "maheswari"
+LABEL org : "learning thoughts"

@@ -1,3 +1,0 @@
-FROM hello-docker:latest
-LABEL author :maheswari
-LABEL organization : "learning thoughts"
