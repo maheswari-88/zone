@@ -2,10 +2,10 @@
 apiversion: v1
 kind: Pod
 metadata:
-   name: gameoflife
+   name: game-of-life
 spec: 
   containers:
-    - image: 937761114677.dkr.ecr.us-east-2.amazonaws.com/gameoflife
+    - image: maheswari-mca88/game-of-life 
       name: gol
       ports:
        - containerport: 8080
