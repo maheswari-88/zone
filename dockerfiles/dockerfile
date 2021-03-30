@@ -1,0 +1,4 @@
+FROM ubuntu
+LABEL author="mahi"
+RUN apt-get update
+CMD ["echo", "hello-world..! this is my first file"]
