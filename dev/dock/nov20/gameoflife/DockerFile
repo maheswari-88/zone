@@ -1,4 +1,1 @@
 FROM tomcat:jdk8-openjdk
-LABEL team="qtdevops"
-RUN cd webapps/ && wget https://refferance.s3.us-east-2.amazonaws.com/gameoflife.war
-EXPOSE 8080
