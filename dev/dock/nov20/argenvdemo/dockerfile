@@ -1,6 +1,7 @@
 FROM openjdk:8u272-slim
 LABEL author="qtdevops"
 ARG download_location='https://refferance.s3.us-east-2.amazonaws.com/spring-petclinic-2.4.2.jar'
-ADD ${download_location} spring-petclinic.jar
+ENV FILE_LOCATION='spring-petclinic.jar'
+ADD ${download_location} ${FILE_LOCATION}
 EXPOSE 8080
-CMD [ "java", "-jar", "spring-petclinic.jar" ]
+CMD "java", "-jar", ${FILE_LOCATION} 
