@@ -4,3 +4,6 @@
 [submodule "Dockerzone"]
 	path = Dockerzone
 	url = https://github.com/maheswari-88/Dockerzone.git
+[submodule "devops/k8s"]
+	path = devops/k8s
+	url = https://github.com/maheswari-88/kuberneteszone.git
